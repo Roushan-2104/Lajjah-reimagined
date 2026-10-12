@@ -180,13 +180,13 @@ No downloaded models. The four signature pieces (**Ira**, **Kaveri**, **Nira**, 
 
 ```mermaid
 flowchart LR
-    A[Product photo] --> B[Decompose<br/>into parts]
-    B --> C[Swept tubes · lathe<br/>· instancing]
-    A --> D[prepare-textures.mjs<br/>engraving crop → grayscale<br/>+ normal map + alpha]
-    C --> E[silver&#40;&#41; PBR material]
+    A["Product photo"] --> B["Decompose<br/>into parts"]
+    B --> C["Swept tubes · lathe<br/>· instancing"]
+    A --> D["prepare-textures.mjs<br/>engraving crop → grayscale<br/>+ normal map + alpha"]
+    C --> E["silver() PBR material"]
     D --> E
-    E --> F[Relief displacement<br/>faded at part edges]
-    F --> G[Studio lighting<br/>+ post-processing]
+    E --> F["Relief displacement<br/>faded at part edges"]
+    F --> G["Studio lighting<br/>+ post-processing"]
 ```
 
 - **Engraving is projected from the photo itself.** Grayscale and normal maps are cut from the product shot. Filigree is real openwork, using the photo's alpha.
