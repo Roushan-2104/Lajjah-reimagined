@@ -1,0 +1,8 @@
+node_modules/
+dist/
+
+# raw captures and design-review screenshots (curated copies live in docs/media/)
+recording/frames-*/
+recording/browser-frame/
+recording/*.mp4
+review/
